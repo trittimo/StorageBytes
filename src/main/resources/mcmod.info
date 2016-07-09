@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "com.trittimo.storagebytes",
+  "name": "Storage Bytes",
+  "description": "Manage inventories and wirelessly transfer items across highly configurable networks.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "url": "www.curseforge.com/projects/storagebytes",
+  "updateUrl": "www.curseforge.com/projects/storagebytes",
+  "authorList": ["trittimo"],
+  "credits": "The Forge team for making the API used to make this mod",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

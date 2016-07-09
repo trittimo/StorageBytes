@@ -1,0 +1,33 @@
+Below is my basic "todo" list and ideas which I have for the mod. Not everything here will necessarily be implemented, but it serves as a basic guide for what I intend the mod to do.
+
+==Basic Premises==
+There is only one item added by this mod: the Inventory Linker. The inventory linker does as its title suggests, and links inventories together to allow item sharing between them.
+
+In order to link inventories together, the inventory linker will use the power of Ender Pearls. There is a slot in the top right of the inventory linker GUI that allows the player to insert ender pearls, which are converted into EPP (Ender-Pearl Power) at a rate of 1 pearl to 16 EPP. 
+
+If two inventories are within 256 blocks of each-other AND they are in the same dimension, then the amount of EPP it takes to link those inventories together will be the same as the distance between them. If the inventories are outside of this range, or if the inventories are in separate dimensions, the cost will be a constant 512 EPP. Note that the distance between two inventories is calculated based on the center of the blockspace, so if two inventories are directly next to each-other then the distance between those two inventories will be 1 block.
+
+In the case that a connected inventory partner is unavailable (i.e. the chunk is not loaded), the loaded inventory will flash red when the inventory linker is in hand. By right clicking on either of the 
+
+Link inventories
+Item uses ender pearls based on distance
+Inventories next to each other require no cost
+Can extract/insert into certain sides
+Can extract/insert into certain slot(s)
+Can extract/insert certain amounts
+Can keep a slot stocked (from extract or insert inv)
+Can link one extract inventory to several insert inventories, with priorities
+Can use round-robin or first-found mode
+
+
+One of the largest appeals for a mod such as StorageBytes is the ability to link inventories without managing pipes or other blocks that transfer items. By right-clicking on an inventory with the Inventory Linker, you can create a named Inventory Network
+
+By shift right-clicking the linker on a non-inventory block, you can state that the network is "finished", and transfer will begin. You can of course always edit the network by starting a link on an already linked inventory
+
+Notes:
+Two tabs when working on a network
+	- Transfers: specify a transfer from A to X, and only that
+	- Conditions: specify conditions for transfer to take place, using name of transfer
+		- Conditions can rely on other conditions
+
+Can name networks, inventories, transfers, and conditions
